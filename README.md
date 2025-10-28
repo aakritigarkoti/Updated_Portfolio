@@ -1,19 +1,65 @@
-Aakriti Garkoti - Personal Portfolio
+# 🌐 Aakriti Garkoti - Personal Portfolio
 
-This repository contains a static personal portfolio site for Aakriti Garkoti.
+This repository contains my **personal portfolio website**, showcasing my work as a **Software Engineer & AI/ML Enthusiast**.  
+The website highlights my projects, skills, experience, and achievements — all designed with a sleek dark theme and smooth animations.
 
-How to preview
-1. Open `index.html` in a browser (double-click or use "Open with" in your editor).
+---
 
-Profile photo
-- Place your professional photo at `assets/profile.jpg` (recommended: 800x800 or square). The image will be displayed in a circular frame on the hero section.
+## 🧠 **About Me**
+I’m **Aakriti Garkoti**, a final-year B.Tech (CS) student passionate about building AI-powered and full-stack applications.  
+I’ve cleared multiple **Amazon SDE rounds**, been a **Finalist in Adobe Hackathon 2025**, and built 3+ intelligent software tools improving performance by up to **40%**.
 
-Project pages
-- `index1.html` — CodeBuddy
-- `index2.html` — DocuBotX
-- `index3.html` — IntelliCode-DebugAssist-AI
+> 💡 “Turning ideas into intelligent systems.”
 
-Replace repository links
+---
+
+## 🚀 **Live Portfolio**
+🔗 **[View My Live Portfolio](https://aakriti-projects.vercel.app)**  
+Deployed using **Vercel** with automatic GitHub integration.  
+Every new commit instantly updates the live version!
+
+---
+
+## 💼 **Featured Projects**
+
+### 🧩 [CodeBuddy – AI Coding Tutor](https://aakriti-projects.vercel.app/index1.html)
+An intelligent multi-modal coding assistant that explains programming concepts using text, visuals, and code snippets.  
+- Built with **Python, Streamlit, Google Gemini, and MermaidJS**  
+- Offers structured learning with diagrams, examples, and real-time explanations  
+- Reduces manual learning effort by 40%
+
+---
+
+### 🤖 [DocuBotX – Multi-PDF QA Bot](https://aakriti-projects.vercel.app/index2.html)
+A smart document assistant that answers queries from multiple PDFs using natural language.  
+- Built with **LangChain, HuggingFace, and FAISS**  
+- Improves query accuracy by 25%  
+- Deployed with a scalable backend handling 50+ PDFs efficiently  
+
+---
+
+### ⚙️ [IntelliCode-DebugAssist-AI](https://aakriti-projects.vercel.app/index3.html)
+An AI-powered debugging assistant for multiple programming languages.  
+- Built with **Python, Tree-Sitter, and HuggingFace**  
+- Parses code semantically and explains logical or syntax errors  
+- Simplifies multi-language debugging workflows  
+
+---
+
+## 🧰 **Tech Stack**
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python, Flask, Streamlit, FastAPI  
+- **AI/ML Tools:** HuggingFace, LangChain, FAISS, Google Gemini  
+- **Deployment:** Vercel, GitHub  
+- **Others:** Git, VS Code, Google Cloud Platform  
+
+---
+
+## 🧩 **How to Preview Locally**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/AakritiGarkoti/updated-portfolio.git
+
 - The project cards point to github.com/AakritiGarkoti/* — replace with actual repo URLs if different.
 
 Notes

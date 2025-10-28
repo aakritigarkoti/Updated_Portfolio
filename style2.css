@@ -1,0 +1,182 @@
+/* Importing the same base styles as style1.css with a different accent color */
+:root {
+    --primary-color: #9932CC;
+    --secondary-color: #4B0082;
+    --background-dark: #0a0a0a;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --glow-shadow: 0 0 10px rgba(153, 50, 204, 0.4);
+}
+
+/* Rest of the styles are identical to style1.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 5%;
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.nav-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    text-shadow: var(--glow-shadow);
+}
+
+.back-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: var(--primary-color);
+}
+
+.project-detail {
+    padding: 120px 5% 5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.project-header h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-shadow: var(--glow-shadow);
+}
+
+.project-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.project-section {
+    margin-bottom: 4rem;
+}
+
+.project-section h2 {
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 5px rgba(153, 50, 204, 0.3);
+}
+
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--glow-shadow);
+}
+
+.tech-item i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.feature-list, .future-list {
+    list-style: none;
+}
+
+.feature-list li, .future-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    padding-left: 2rem;
+}
+
+.feature-list li:before, .future-list li:before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+.challenges {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.challenge-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.challenge-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--glow-shadow);
+}
+
+.challenge-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .project-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .project-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .project-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .challenges {
+        grid-template-columns: 1fr;
+    }
+}

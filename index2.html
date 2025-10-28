@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuBotX - Multi-PDF QA Bot | Aakriti Garkoti</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">AG.</a>
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </nav>
+
+    <main class="project-detail">
+        <header class="project-header">
+            <h1>DocuBotX</h1>
+            <p class="project-subtitle">Intelligent Multi-PDF Question Answering System</p>
+        </header>
+
+        <section class="project-section">
+            <h2>Overview</h2>
+            <p>DocuBotX is an advanced document analysis and question-answering system that can process multiple PDF documents simultaneously. It uses LangChain for document processing, FAISS for efficient similarity search, and HuggingFace models for natural language understanding, enabling users to extract precise information from large document collections quickly.</p>
+        </section>
+
+        <section class="project-section">
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>Multi-PDF document processing and analysis</li>
+                <li>Advanced semantic search using FAISS indexing</li>
+                <li>Natural language question answering with context awareness</li>
+                <li>Document summarization and key points extraction</li>
+                <li>Cross-reference capability across multiple documents</li>
+                <li>PDF text extraction with layout preservation</li>
+            </ul>
+        </section>
+
+        <section class="project-section">
+            <h2>Tech Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <i class="fas fa-link"></i>
+                    <span>LangChain</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-search"></i>
+                    <span>FAISS</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-robot"></i>
+                    <span>HuggingFace</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>PyPDF2</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>Challenges & Solutions</h2>
+            <div class="challenges">
+                <div class="challenge-item">
+                    <h3>Large Document Processing</h3>
+                    <p>Implemented chunk-based processing and FAISS indexing for efficient handling of large documents while maintaining context coherence.</p>
+                </div>
+                <div class="challenge-item">
+                    <h3>Context Preservation</h3>
+                    <p>Developed a sliding window approach with overlap to maintain contextual information across document chunks during processing.</p>
+                </div>
+                <div class="challenge-item">
+                    <h3>Query Accuracy</h3>
+                    <p>Integrated multiple LLM models with different strengths for cross-validation and improved answer accuracy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project-section">
+            <h2>Future Improvements</h2>
+            <ul class="future-list">
+                <li>Support for additional document formats (DOCX, TXT, etc.)</li>
+                <li>Implementation of multi-language support</li>
+                <li>Enhanced document structure preservation</li>
+                <li>Integration of OCR for scanned documents</li>
+                <li>API endpoint for external system integration</li>
+            </ul>
+        </section>
+        <section class="project-section">
+            <h2>Impact & Repository</h2>
+            <p>Impact: Improved search speed by ~30% and query accuracy by ~25% in internal benchmarks.</p>
+            <p>Repository: <a href="https://github.com/AakritiGarkoti/DocuBotX" target="_blank">github.com/AakritiGarkoti/DocuBotX</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aakriti Garkoti. All rights reserved.</p>
+    </footer>
+</body>
+</html>
